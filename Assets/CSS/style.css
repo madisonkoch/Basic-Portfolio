@@ -48,8 +48,7 @@
                     right: 0px;
                     bottom: 0px;
                     padding: 15px 0px;
-                    
-                            }
+                }
                 li{
                     display: inline;
                     font-size: 20px;
@@ -79,6 +78,13 @@
                 position: relative;
                 }
             /*Content*/
+                .hr1 {
+                    height: 1px;
+                    border: 0;
+                    border-top: 3px solid #cccccc;
+                    margin: 16px 0;
+                    padding: 0; 
+                }
                 .content h2{
                     color: #4aaaa5;
                     font-size: 32px;
@@ -92,9 +98,26 @@
                     width: 590px;
                     overflow: auto;
                 }
+                .joinme:link,
+                .joinme:visited{
+                    color: #4aaaa5;
+                }
+                .joinme:hover{
+                    color: #666666;
+                    text-shadow: 0px 0px 8px #4aaaa5;
+                }
             /*SideBar*/
+                .hr2 {
+                    height: 1px;
+                    border: 0;
+                    border-top: 2px solid #cccccc;
+                    margin: 16px 0;
+                    padding: 0; 
+                }
                 .sidebar h2{
                     color: #4aaaa5;
+                    margin-top: 8px;
+                    margin-bottom: 15px;
                 }
                 .sidebar{
                     background-color: #ffffff; 
@@ -127,14 +150,13 @@
                 border-top: #4aaaa5;
                 border-top-width: 5px;
                 border-style: solid;
-                margin-top: 30px;
                 position: relative;
-                height: 45px;
+                height: 75px;
             }
             footer p{
                 color: #cccccc;
-                font-size: 9px;
-                padding-top: 12px;
+                font-size: 12px;
+                padding-top: 25px;
             }
 
 /*About Page*/
@@ -168,4 +190,33 @@
         color: white;
         width:100%;
         text-align: center;
+    }
+/*Contact Page*/
+    form input,
+    form textarea{
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 576px;
+    }
+    textarea{
+        height: 200px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    input{
+        height: 30px;
+        padding-left: 10px;
+    }
+    label{
+        font-size: 18px;
+        color: #666666;
+    }
+    .submit{
+        width: 25%;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: white;
+        border: none;
+        font-size: 18px;
     }
