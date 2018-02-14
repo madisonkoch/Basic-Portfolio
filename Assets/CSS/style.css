@@ -105,6 +105,7 @@
                     vertical-align: top;
                     display: inline-block;
                     *display: inline;
+                    margin: 0px 3.5px;
                 }
                 .connect{
                     width: 210px;
