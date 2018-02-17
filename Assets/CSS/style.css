@@ -1,4 +1,6 @@
- /*GLOBAL STYLE*/
+@import url(./css/assets/reset.css);
+
+/*GLOBAL STYLE*/
     html{background-image: url(../Images/Background.png);}
     .flex{
         display: flex;
